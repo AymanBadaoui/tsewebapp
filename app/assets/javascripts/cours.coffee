@@ -3,11 +3,3 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 
-
-$(document).ready(function() {
-		setTimeout(function(){
-			$('#notice_wrapper').fadeOut("slow", function() {
-				$(this).remove();
-			})
-		}, 2000);
-	});
