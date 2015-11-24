@@ -1,0 +1,33 @@
+<%= simple_form_for(@cour) do |f| %>
+  <% if @cour.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@cour.errors.count, "error") %> prohibited this cour from being saved:</h2>
+
+      <ul>
+      <% @cour.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :titre %><br>
+    <%= f.text_field :titre %>
+  </div>
+  <div class="field">
+    <%= f.label :niveau %><br>
+    <%= f.text_field :niveau %>
+  </div>
+  <div class="field">
+    <%= f.label :filiere %><br>
+    <%= f.text_field :filiere %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

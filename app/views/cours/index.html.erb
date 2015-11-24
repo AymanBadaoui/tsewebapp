@@ -1,0 +1,44 @@
+
+<div class="col-md-8">
+<% @cours.each do |cour| %>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="form-group">
+        <label>Titre</label>
+        <p><%= cour.titre %></p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="form-group">
+        <label>Niveau</label>
+        <p><%= cour.niveau %></p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="form-group">
+        <label>Filiere</label>
+        <p><%= cour.filiere %></p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="form-group">
+        <label>Description</label>
+        <p><%= cour.description %></p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <form class="form-inline">
+      <div class="form-group">
+        <%= link_to time_ago_in_words(cour.created_at) + ' ago', cour %> |
+        <%= link_to 'Modifier', edit_cour_path(cour) %> |
+        <%= link_to 'Effacer', cour, method: :delete, data: { confirm: 'Are you sure?' } %>
+      </div>
+    </form>
+  </div>
+  <br>
+  <% end %>
+</div>
+<div class="col-md-4 text-right">
+  <%= link_to 'Ajouter', new_cour_path, class: "btn btn-success" %>
+</div>

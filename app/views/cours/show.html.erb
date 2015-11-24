@@ -1,0 +1,28 @@
+
+<p>
+  <strong>Titre:</strong>
+  <%= @cour.titre %>
+</p>
+
+<p>
+  <strong>Niveau:</strong>
+  <%= @cour.niveau %>
+</p>
+
+<p>
+  <strong>Filiere:</strong>
+  <%= @cour.filiere %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @cour.description %>
+</p>
+
+<p>
+  <strong>Par</strong>
+  <%= @cour.user.name %>
+</p>
+
+<%= link_to 'Edit', edit_cour_path(@cour) %> |
+<%= link_to 'Back', cours_path %>

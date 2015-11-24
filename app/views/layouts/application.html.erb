@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TSE App</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<% if notice %>
+	<div id="notice_wrapper">
+		<p class="notice"><%= notice %></p>
+	</div>
+<% elsif alert %>
+	<div id="notice_wrapper">
+		<p class="alert"><%= alert %></p>
+	</div>
+<% end %>
+<header>
+	<nav class="navbar nav-tse navbar-fixed-top">
+  		<div class="container">
+  		<div class="navbar-header">
+	      <a class="navbar-brand" href="#">
+	        <img src="/images/logo-tse.png">
+	      </a>
+	      <ul class="nav navbar-nav">
+	      	<li><%= link_to "Découvrir", cours_path %></li>
+	      	<li><%= link_to "Communauté" %></li>
+	      	<li><%= link_to "TSE+" %></li>
+	      	<li><%= link_to "Apps" %></li>
+	      	<li><%= link_to "Support" %></li>
+	      </ul>
+	    </div>
+	    <div class="">
+	    	<ul class="nav navbar-nav navbar-right">
+			   <li><%= render 'devise/menu/registration_items' %></li>
+			   <li><%= render 'devise/menu/login_items' %></li>
+			</ul>
+	    </div>
+  		</div>
+	</nav>
+</header>
+
+<div class="jumbotron">
+	<div class="container text-center">
+	<% if user_signed_in? %>
+	  <h1>Bonjour, <%= current_user.name %></h1>
+	  <p>...</p>
+	  <% end %>
+  	</div>
+</div>
+
+<div class="container">
+<%= yield %>
+</div>
+
+
+</body>
+</html>
