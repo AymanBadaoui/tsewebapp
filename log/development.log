@@ -8816,3 +8816,484 @@ Started GET "/assets/cours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde45
 
 
 Started GET "/assets/application.self-c18c2ec952c36f07fb58530ada82e681d07300a846ddd8542c016301b0e481f8.js?body=1" for ::1 at 2015-11-24 00:08:59 +0000
+
+
+Started GET "/" for ::1 at 2015-11-24 12:48:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursController#index as HTML
+  [1m[35mCour Load (0.4ms)[0m  SELECT "cours".* FROM "cours"
+  Rendered cours/index.html.erb within layouts/application (28.5ms)
+  Rendered devise/menu/_registration_items.html.erb (7.1ms)
+  Rendered devise/menu/_login_items.html.erb (1.2ms)
+Completed 200 OK in 1225ms (Views: 1203.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap.self-0d2ad954072da5d4f6ae167439cbe55d8f441c23968adf83ae9707250bbdbb3d.js?body=1" for ::1 at 2015-11-24 12:48:32 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-24 12:48:32 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-24 12:48:32 +0000
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-24 12:48:32 +0000
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for ::1 at 2015-11-24 12:48:32 +0000
+
+
+Started GET "/" for ::1 at 2015-11-24 12:51:45 +0000
+Processing by CoursController#index as HTML
+  [1m[36mCour Load (0.3ms)[0m  [1mSELECT "cours".* FROM "cours"[0m
+  Rendered cours/index.html.erb within layouts/application (6.0ms)
+  Rendered devise/menu/_registration_items.html.erb (0.7ms)
+  Rendered devise/menu/_login_items.html.erb (0.5ms)
+Completed 200 OK in 261ms (Views: 259.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-11-24 12:51:45 +0000
+
+
+Started GET "/assets/font-awesome.self-096a1cf4b422c9c89eb905af2ee7bff3a955fc2ceefa7c0047237a0dddb7ce84.css?body=1" for ::1 at 2015-11-24 12:51:45 +0000
+
+
+Started GET "/assets/application.self-e565c6e3f009eeca3323f1be45891d9336046e3a361bad3ffb6fcc7cc5315caf.css?body=1" for ::1 at 2015-11-24 12:51:45 +0000
+
+
+Started GET "/assets/cours.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-24 12:51:45 +0000
+
+
+Started GET "/assets/bootstrap.self-0d2ad954072da5d4f6ae167439cbe55d8f441c23968adf83ae9707250bbdbb3d.js?body=1" for ::1 at 2015-11-24 12:51:45 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-24 12:51:45 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-24 12:51:45 +0000
+
+
+Started GET "/assets/cours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-24 12:51:45 +0000
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for ::1 at 2015-11-24 12:51:45 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-24 12:51:45 +0000
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-24 12:51:45 +0000
+
+
+Started GET "/" for ::1 at 2015-11-24 12:53:39 +0000
+Processing by CoursController#index as HTML
+  [1m[35mCour Load (0.2ms)[0m  SELECT "cours".* FROM "cours"
+  Rendered cours/index.html.erb within layouts/application (3.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.4ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 79.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-11-24 12:53:39 +0000
+
+
+Started GET "/assets/application.self-e565c6e3f009eeca3323f1be45891d9336046e3a361bad3ffb6fcc7cc5315caf.css?body=1" for ::1 at 2015-11-24 12:53:39 +0000
+
+
+Started GET "/assets/font-awesome.self-096a1cf4b422c9c89eb905af2ee7bff3a955fc2ceefa7c0047237a0dddb7ce84.css?body=1" for ::1 at 2015-11-24 12:53:39 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-24 12:53:39 +0000
+
+
+Started GET "/assets/cours.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-24 12:53:39 +0000
+
+
+Started GET "/assets/bootstrap.self-0d2ad954072da5d4f6ae167439cbe55d8f441c23968adf83ae9707250bbdbb3d.js?body=1" for ::1 at 2015-11-24 12:53:39 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-24 12:53:39 +0000
+
+
+Started GET "/assets/cours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-24 12:53:39 +0000
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-24 12:53:39 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-24 12:53:39 +0000
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for ::1 at 2015-11-24 12:53:39 +0000
+
+
+Started GET "/" for ::1 at 2015-11-24 13:02:59 +0000
+Processing by CoursController#index as HTML
+  [1m[36mCour Load (0.2ms)[0m  [1mSELECT "cours".* FROM "cours"[0m
+  Rendered cours/index.html.erb within layouts/application (3.4ms)
+  Rendered devise/menu/_registration_items.html.erb (0.6ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 87ms (Views: 86.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-11-24 13:02:59 +0000
+
+
+Started GET "/assets/cours.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-24 13:02:59 +0000
+
+
+Started GET "/assets/bootstrap.self-0d2ad954072da5d4f6ae167439cbe55d8f441c23968adf83ae9707250bbdbb3d.js?body=1" for ::1 at 2015-11-24 13:02:59 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-24 13:02:59 +0000
+
+
+Started GET "/assets/application.self-e565c6e3f009eeca3323f1be45891d9336046e3a361bad3ffb6fcc7cc5315caf.css?body=1" for ::1 at 2015-11-24 13:02:59 +0000
+
+
+Started GET "/assets/font-awesome.self-096a1cf4b422c9c89eb905af2ee7bff3a955fc2ceefa7c0047237a0dddb7ce84.css?body=1" for ::1 at 2015-11-24 13:02:59 +0000
+
+
+Started GET "/assets/cours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-24 13:02:59 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-24 13:02:59 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-24 13:02:59 +0000
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for ::1 at 2015-11-24 13:02:59 +0000
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-24 13:02:59 +0000
+
+
+Started GET "/" for ::1 at 2015-11-24 13:03:24 +0000
+Processing by CoursController#index as HTML
+  [1m[35mCour Load (0.2ms)[0m  SELECT "cours".* FROM "cours"
+  Rendered cours/index.html.erb within layouts/application (2.3ms)
+  Rendered devise/menu/_registration_items.html.erb (0.4ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 86ms (Views: 85.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cours.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-24 13:03:24 +0000
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-11-24 13:03:24 +0000
+
+
+Started GET "/assets/font-awesome.self-096a1cf4b422c9c89eb905af2ee7bff3a955fc2ceefa7c0047237a0dddb7ce84.css?body=1" for ::1 at 2015-11-24 13:03:24 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-24 13:03:24 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-24 13:03:24 +0000
+
+
+Started GET "/assets/application.self-e565c6e3f009eeca3323f1be45891d9336046e3a361bad3ffb6fcc7cc5315caf.css?body=1" for ::1 at 2015-11-24 13:03:24 +0000
+
+
+Started GET "/assets/bootstrap.self-0d2ad954072da5d4f6ae167439cbe55d8f441c23968adf83ae9707250bbdbb3d.js?body=1" for ::1 at 2015-11-24 13:03:24 +0000
+
+
+Started GET "/assets/cours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-24 13:03:24 +0000
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-24 13:03:24 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-24 13:03:24 +0000
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for ::1 at 2015-11-24 13:03:24 +0000
+
+
+Started GET "/cours" for ::1 at 2015-11-24 13:03:26 +0000
+Processing by CoursController#index as HTML
+  [1m[36mCour Load (0.2ms)[0m  [1mSELECT "cours".* FROM "cours"[0m
+  Rendered cours/index.html.erb within layouts/application (2.8ms)
+  Rendered devise/menu/_registration_items.html.erb (0.8ms)
+  Rendered devise/menu/_login_items.html.erb (0.6ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cours" for ::1 at 2015-11-24 13:03:44 +0000
+Processing by CoursController#index as HTML
+  [1m[35mCour Load (0.2ms)[0m  SELECT "cours".* FROM "cours"
+  Rendered cours/index.html.erb within layouts/application (1.9ms)
+  Rendered devise/menu/_registration_items.html.erb (0.4ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 75ms (Views: 74.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-11-24 13:03:44 +0000
+
+
+Started GET "/assets/cours.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-24 13:03:44 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-24 13:03:44 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-24 13:03:44 +0000
+
+
+Started GET "/assets/application.self-e565c6e3f009eeca3323f1be45891d9336046e3a361bad3ffb6fcc7cc5315caf.css?body=1" for ::1 at 2015-11-24 13:03:44 +0000
+
+
+Started GET "/assets/font-awesome.self-096a1cf4b422c9c89eb905af2ee7bff3a955fc2ceefa7c0047237a0dddb7ce84.css?body=1" for ::1 at 2015-11-24 13:03:44 +0000
+
+
+Started GET "/assets/bootstrap.self-0d2ad954072da5d4f6ae167439cbe55d8f441c23968adf83ae9707250bbdbb3d.js?body=1" for ::1 at 2015-11-24 13:03:44 +0000
+
+
+Started GET "/assets/cours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-24 13:03:44 +0000
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-24 13:03:44 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-24 13:03:44 +0000
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for ::1 at 2015-11-24 13:03:44 +0000
+
+
+Started GET "/cours" for ::1 at 2015-11-24 13:18:11 +0000
+Processing by CoursController#index as HTML
+  [1m[36mCour Load (0.8ms)[0m  [1mSELECT "cours".* FROM "cours"[0m
+  Rendered cours/index.html.erb within layouts/application (13.1ms)
+  Rendered devise/menu/_registration_items.html.erb (2.5ms)
+  Rendered devise/menu/_login_items.html.erb (0.5ms)
+Completed 200 OK in 175ms (Views: 167.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-11-24 13:18:11 +0000
+
+
+Started GET "/assets/application.self-e565c6e3f009eeca3323f1be45891d9336046e3a361bad3ffb6fcc7cc5315caf.css?body=1" for ::1 at 2015-11-24 13:18:11 +0000
+
+
+Started GET "/assets/bootstrap.self-0d2ad954072da5d4f6ae167439cbe55d8f441c23968adf83ae9707250bbdbb3d.js?body=1" for ::1 at 2015-11-24 13:18:11 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-24 13:18:11 +0000
+
+
+Started GET "/assets/font-awesome.self-096a1cf4b422c9c89eb905af2ee7bff3a955fc2ceefa7c0047237a0dddb7ce84.css?body=1" for ::1 at 2015-11-24 13:18:11 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-24 13:18:11 +0000
+
+
+Started GET "/assets/cours.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-24 13:18:11 +0000
+
+
+Started GET "/assets/cours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-24 13:18:11 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-24 13:18:12 +0000
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for ::1 at 2015-11-24 13:18:12 +0000
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-24 13:18:12 +0000
+
+
+Started GET "/cours/2" for ::1 at 2015-11-24 13:18:14 +0000
+Processing by CoursController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCour Load (0.4ms)[0m  SELECT  "cours".* FROM "cours" WHERE "cours"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cours/_disqus.html.erb (1.4ms)
+  Rendered cours/show.html.erb within layouts/application (49.2ms)
+  Rendered devise/menu/_registration_items.html.erb (0.8ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 189ms (Views: 133.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/cours/2" for ::1 at 2015-11-24 13:18:57 +0000
+Processing by CoursController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCour Load (0.1ms)[0m  SELECT  "cours".* FROM "cours" WHERE "cours"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cours/_disqus.html.erb (0.4ms)
+  Rendered cours/show.html.erb within layouts/application (5.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.5ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 81.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-11-24 13:18:58 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-24 13:18:58 +0000
+
+
+Started GET "/assets/font-awesome.self-096a1cf4b422c9c89eb905af2ee7bff3a955fc2ceefa7c0047237a0dddb7ce84.css?body=1" for ::1 at 2015-11-24 13:18:58 +0000
+
+
+Started GET "/assets/bootstrap.self-0d2ad954072da5d4f6ae167439cbe55d8f441c23968adf83ae9707250bbdbb3d.js?body=1" for ::1 at 2015-11-24 13:18:58 +0000
+
+
+Started GET "/assets/cours.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-24 13:18:58 +0000
+
+
+Started GET "/assets/application.self-e565c6e3f009eeca3323f1be45891d9336046e3a361bad3ffb6fcc7cc5315caf.css?body=1" for ::1 at 2015-11-24 13:18:58 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-24 13:18:58 +0000
+
+
+Started GET "/assets/cours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-24 13:18:58 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-24 13:18:58 +0000
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-24 13:18:58 +0000
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for ::1 at 2015-11-24 13:18:58 +0000
+
+
+Started GET "/cours/2" for ::1 at 2015-11-24 13:27:03 +0000
+Processing by CoursController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCour Load (0.1ms)[0m  SELECT  "cours".* FROM "cours" WHERE "cours"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_cours__disqus_html_erb__1271523744713672594_70230430855940 at /Users/aymanbadaoui/Code/Ruby/tsewebapp/app/views/cours/_disqus.html.erb:6)
+  Rendered cours/_disqus.html.erb (2.2ms)
+  Rendered cours/show.html.erb within layouts/application (7.5ms)
+  Rendered devise/menu/_registration_items.html.erb (0.4ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 100ms (Views: 98.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-11-24 13:27:03 +0000
+
+
+Started GET "/assets/application.self-e565c6e3f009eeca3323f1be45891d9336046e3a361bad3ffb6fcc7cc5315caf.css?body=1" for ::1 at 2015-11-24 13:27:03 +0000
+
+
+Started GET "/assets/cours.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-24 13:27:03 +0000
+
+
+Started GET "/assets/bootstrap.self-0d2ad954072da5d4f6ae167439cbe55d8f441c23968adf83ae9707250bbdbb3d.js?body=1" for ::1 at 2015-11-24 13:27:03 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-24 13:27:03 +0000
+
+
+Started GET "/assets/font-awesome.self-096a1cf4b422c9c89eb905af2ee7bff3a955fc2ceefa7c0047237a0dddb7ce84.css?body=1" for ::1 at 2015-11-24 13:27:03 +0000
+
+
+Started GET "/assets/cours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-24 13:27:03 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-24 13:27:03 +0000
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-24 13:27:03 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-24 13:27:03 +0000
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for ::1 at 2015-11-24 13:27:03 +0000
+
+
+Started GET "/cours/2" for ::1 at 2015-11-24 13:27:59 +0000
+Processing by CoursController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCour Load (0.1ms)[0m  SELECT  "cours".* FROM "cours" WHERE "cours"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_cours__disqus_html_erb__1271523744713672594_70230377300020 at /Users/aymanbadaoui/Code/Ruby/tsewebapp/app/views/cours/_disqus.html.erb:6)
+  Rendered cours/_disqus.html.erb (1.1ms)
+  Rendered cours/show.html.erb within layouts/application (4.5ms)
+  Rendered devise/menu/_registration_items.html.erb (0.6ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 85ms (Views: 83.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-11-24 13:27:59 +0000
+
+
+Started GET "/assets/application.self-e565c6e3f009eeca3323f1be45891d9336046e3a361bad3ffb6fcc7cc5315caf.css?body=1" for ::1 at 2015-11-24 13:27:59 +0000
+
+
+Started GET "/assets/font-awesome.self-096a1cf4b422c9c89eb905af2ee7bff3a955fc2ceefa7c0047237a0dddb7ce84.css?body=1" for ::1 at 2015-11-24 13:27:59 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-24 13:27:59 +0000
+
+
+Started GET "/assets/bootstrap.self-0d2ad954072da5d4f6ae167439cbe55d8f441c23968adf83ae9707250bbdbb3d.js?body=1" for ::1 at 2015-11-24 13:27:59 +0000
+
+
+Started GET "/assets/cours.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-24 13:27:59 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-24 13:27:59 +0000
+
+
+Started GET "/assets/cours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-24 13:27:59 +0000
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-24 13:27:59 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-24 13:27:59 +0000
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for ::1 at 2015-11-24 13:27:59 +0000
+
+
+Started GET "/cours/2" for ::1 at 2015-11-24 13:28:27 +0000
+Processing by CoursController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCour Load (0.1ms)[0m  SELECT  "cours".* FROM "cours" WHERE "cours"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_cours__disqus_html_erb__1271523744713672594_70230407266880 at /Users/aymanbadaoui/Code/Ruby/tsewebapp/app/views/cours/_disqus.html.erb:6)
+  Rendered cours/_disqus.html.erb (1.0ms)
+  Rendered cours/show.html.erb within layouts/application (4.5ms)
+  Rendered devise/menu/_registration_items.html.erb (0.4ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cours.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-24 13:28:27 +0000
+
+
+Started GET "/assets/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for ::1 at 2015-11-24 13:28:27 +0000
+
+
+Started GET "/assets/font-awesome.self-096a1cf4b422c9c89eb905af2ee7bff3a955fc2ceefa7c0047237a0dddb7ce84.css?body=1" for ::1 at 2015-11-24 13:28:27 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-24 13:28:27 +0000
+
+
+Started GET "/assets/application.self-e565c6e3f009eeca3323f1be45891d9336046e3a361bad3ffb6fcc7cc5315caf.css?body=1" for ::1 at 2015-11-24 13:28:27 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-24 13:28:27 +0000
+
+
+Started GET "/assets/bootstrap.self-0d2ad954072da5d4f6ae167439cbe55d8f441c23968adf83ae9707250bbdbb3d.js?body=1" for ::1 at 2015-11-24 13:28:27 +0000
+
+
+Started GET "/assets/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for ::1 at 2015-11-24 13:28:27 +0000
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-24 13:28:27 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-24 13:28:27 +0000
+
+
+Started GET "/assets/cours.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-24 13:28:27 +0000

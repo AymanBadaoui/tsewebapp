@@ -1,0 +1,16 @@
+<div id="disqus_thread"></div>
+<script>
+	var disqus_shortname = 'Tsemaroc';
+	var disqus_identifier = '<%= @cour.id %>';
+	var disqus_title = '<%= @cour.titre %>';
+	var disqus_url = '<%= url_for([@cour, {only_path: false}]) %>';
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//tsemaroc.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
