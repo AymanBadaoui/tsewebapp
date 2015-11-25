@@ -47,7 +47,9 @@
 	<% if user_signed_in? %>
 	  <h1>Bonjour, <%= current_user.name %></h1>
 	  <p>...</p>
-	  <% end %>
+	  <br>
+	  <%= link_to 'Ajouter', new_cour_path, class: "btn btn-primary" %>
+	 <% end %>
   	</div>
 </div>
 
